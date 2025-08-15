@@ -1,9 +1,13 @@
 @echo off
 echo Starting Air Quality Prediction Dashboard...
-
 echo.
+
 echo Installing Python dependencies...
 pip install -r requirements.txt
+
+echo.
+echo Installing Node.js dependencies...
+npm install
 
 echo.
 echo Starting Python model server...
